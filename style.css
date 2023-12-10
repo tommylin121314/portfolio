@@ -132,9 +132,147 @@ a:hover {
     opacity: 1;
 }
 
-/* 
+/* PROFILE */
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 90vh;
+}
+
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+#profile-pic {
+    border-radius: 50%;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 600;
+}
+
+.section__text__p1 {
+    text-align: center;
+}
+
+.section__text__p2 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.section-spacer {
+    height: 20vh;
+}
+
+/* ICONS */
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* BUTTONS */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.15rem solid;
+    background: rgb(255, 255, 255);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: rgb(53, 53, 53);
+    border: rgb(53, 53, 53) 0.15rem solid;
+    color: white;
+}
+
+.btn-container {
+    gap: 1rem;
+}
+
+
 
 /* ANIMATIONS */
 a, .btn {
     transition: all 150ms ease-out;
 }
+
+/* ABOUT */
+#about {
+    position: relative;
+    height: 100vh;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+.about-details-text {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.arrow {
+    position: absolute;
+    right: 5rem;
+    bottom: 3rem; 
+}
+
+.details-container {
+    padding: 4rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(160,160,160);
+    text-align: center;
+}
+
